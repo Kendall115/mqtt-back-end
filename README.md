@@ -22,6 +22,12 @@ cd mqtt-backend
 npm install
 ```
 
+4. Usage
+
+```javascript
+npm start
+```
+
 ## Configuration
 
 Before running the application make sure mqtt broker is running and is using port 1883 or modify src/config/MqttConfig.js file according to your broker configuration.
