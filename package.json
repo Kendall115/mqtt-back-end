@@ -1,0 +1,19 @@
+{
+  "name": "mqtt-client",
+  "version": "0.0.1",
+  "description": "first mqtt app",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mqtt": "^5.10.1",
+    "socket.io": "^4.7.5",
+    "sqlite3": "^5.1.7",
+    "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
